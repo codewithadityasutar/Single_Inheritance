@@ -1,0 +1,13 @@
+#1)Single inheritance
+class base:
+    def show(self):
+        print("This is base class")
+
+class derived(base):
+    """above line base class inherit in derived class, 
+       therefore access the base method in derived object using"""
+    def dshow(self):
+        print("This derived class method")
+d=derived()
+d.show()
+d.dshow()
